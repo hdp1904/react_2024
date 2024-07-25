@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 const style = {
   container: {
-    padding: "20px",
+    padding: "21px",
     border: "1px solid #E0E0E0",
     borderRadius: "15px",
     width: "max-content",
