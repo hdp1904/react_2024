@@ -1,0 +1,106 @@
+h1 {
+}
+
+/* .title {
+  color: red;
+} */
+
+#title {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+  background-color: orange;
+  border: 1px solid black;
+  height: 100px;
+}
+
+/* box model & box sizing */
+.box {
+  width: 50px;
+  height: 50px;
+  border: 5px solid black;
+  padding: 5px;
+  margin: 10px;
+  background-color: red;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+/* display */
+#display * {
+  margin-bottom: 5px;
+}
+
+#display div {
+  background-color: lightcoral;
+}
+
+#display span {
+  background-color: lightblue;
+}
+
+#flex-grid-part {
+}
+
+.flexbox {
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  border: 1px solid black;
+}
+
+/* @media screen and (width >= 700px) {
+  * {
+    background-color: red;
+  }
+} */
+
+.btn {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn--primary {
+  color: white;
+  background-color: green;
+}
+
+.btn--secondary {
+  color: red;
+  background-color: blue;
+}
+
+
+.card {}
+.card__title {}
+.card__title--modifier-a {}
+.card__paragraph {}
+
+/* With SCSS */
+/* .card {
+  &__title {
+    &--modifier {
+
+    }
+  }
+
+  &__paragraph {
+
+  }
+} */
