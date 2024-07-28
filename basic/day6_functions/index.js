@@ -74,7 +74,7 @@ function delayedCall(callbackFn, delay, ...args) {
 // console.log(msg);
 
 const counter = (() => {
-  let count = 1;
+  let count = 0;
 
   function increment(amount = 1) {
     count += amount;
