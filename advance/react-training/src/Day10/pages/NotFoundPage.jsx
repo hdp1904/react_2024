@@ -6,7 +6,7 @@ export default function NotFoundPage() {
   useEffect(() => {
     const id = setTimeout(() => {
       history.push("/about");
-    }, 3000);
+    }, 2000);
 
     return clearTimeout(id);
   }, []);
