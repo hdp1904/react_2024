@@ -46,7 +46,7 @@ function GrandChild() {
   return (
     <div
       style={{
-        border: "1px solid white",
+        border: "2px solid white",
         padding: "10px",
       }}
     >
