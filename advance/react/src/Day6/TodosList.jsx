@@ -5,7 +5,7 @@ export default function TodosList() {
   const {
     data: todos,
     loading,
-    error
+    error,
   } = useFetch("https://jsonplaceholder.typicode.com/todos");
 
   return (
