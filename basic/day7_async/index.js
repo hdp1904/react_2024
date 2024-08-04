@@ -1,12 +1,12 @@
-// setTimeout(() => {
-//   console.log("time out");
-// }, 0);
+setTimeout(() => {
+  console.log("time out");
+}, 0);
 
-// for (let i = 0; i < 10000; i++) {
-//   if (i === 9999) {
-//     console.log(i);
-//   }
-// }
+for (let i = 0; i < 10000; i++) {
+  if (i === 9999) {
+    console.log(i);
+  }
+}
 
 // async functions will always return a promise
 async function foo() {
