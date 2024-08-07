@@ -1,6 +1,10 @@
 setTimeout(() => {
-  console.log("time out");
+  console.log("time out 1");
 }, 0);
+
+setTimeout(() => {
+  console.log("time out 2");
+}, 500);
 
 for (let i = 0; i < 10000; i++) {
   if (i === 9999) {
