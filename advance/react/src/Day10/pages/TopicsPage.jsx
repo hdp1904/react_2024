@@ -4,7 +4,7 @@ import { Link, Route, Switch, useParams, useRouteMatch } from "react-router-dom"
 export default function TopicsPage() {
   let match = useRouteMatch();
 
-  console.log("match", match);
+  // console.log("match", match);
 
   return (
     <div>
