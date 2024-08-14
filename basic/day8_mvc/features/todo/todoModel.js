@@ -13,7 +13,7 @@ class TodoModel {
   }
 
   getTodos() {
-    return [...this.#todos];
+   
   }
 
   addTodo(newTodo) {
