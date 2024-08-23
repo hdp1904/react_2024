@@ -141,7 +141,7 @@ const person = {
     //     // console.log("this", this);
     //     console.log(`Hi, my name is ${this.firstName}`);
     //   }.bind(this),
-    //   1000
+    //   500
     // );
 
     setTimeout(() => {
