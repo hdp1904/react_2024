@@ -2,7 +2,7 @@
 var something = "qoiwdoqpwk";
 
 //ES6
-let count = 0;
+let count = 1;
 // console.log(count);
 // count++;
 // console.log(count);
