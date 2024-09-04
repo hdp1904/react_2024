@@ -146,7 +146,7 @@ const person = {
 
     setTimeout(() => {
       console.log(`Hi, my name is ${this.firstName}`);
-    }, 500);
+    }, 1000);
   },
 };
 
