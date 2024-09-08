@@ -19,7 +19,7 @@ class PostsList extends Component {
         <button onClick={refetch}>Refetch</button>
         {isRefetching && <div>refetching...</div>}
         <div>
-          {posts?.map((post) => {
+          {posts.map((post) => {
             return (
               <div key={post.id}>
                 <div>Post {post.id}</div>
