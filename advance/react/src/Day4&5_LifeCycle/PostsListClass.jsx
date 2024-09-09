@@ -14,7 +14,7 @@ export default class PostsListClass extends Component {
   }
 
   render() {
-    const { posts } = this.state;
+
 
     return (
       <div>
