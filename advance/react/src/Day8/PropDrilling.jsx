@@ -23,7 +23,7 @@ function A({ count }) {
       }}
     >
       <h3>A: {count} </h3>
-      <B count={count} />
+ 
     </div>
   );
 }
