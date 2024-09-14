@@ -35,7 +35,7 @@ person3.name = "Mike";
 const person4 = _.cloneDeep(person1);
 person4.name = "qwoieiqwojrqwjio";
 
-// console.log(p1Str);
+console.log(p1Str);
 
 // console.log("person1", person1);
 // console.log("person2", person2);
