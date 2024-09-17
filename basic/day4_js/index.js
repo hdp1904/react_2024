@@ -91,4 +91,4 @@ const user = {
 
 const { password, ...userInfo } = user;
 
- console.log(userInfo);
+// console.log(userInfo);
