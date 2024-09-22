@@ -15,7 +15,7 @@ const obj2 = {
   a: "a2",
   b: "b2",
   //obj2 will have all obj1's properties
-
+  __proto__: obj1,
 };
 
 // console.log(obj2.oiqwjfioqwhfoijqoiwfoqwj);
