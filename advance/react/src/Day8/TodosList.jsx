@@ -7,7 +7,7 @@ export default function TodosList() {
   const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
-
+    e.preventDefault();
     handleAdd(value);
   };
 
