@@ -6,7 +6,7 @@ const initPeople = [
     id: 0,
     name: "Creola Katherine Johnson",
     profession: "mathematician",
-    age: 10,
+    age: 20,
   },
   {
     id: 1,
