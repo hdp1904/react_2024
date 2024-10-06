@@ -24,7 +24,7 @@ export default function Memoization() {
       a: "a",
       b: "b",
     };
-  }, []);
+  }, [input]);
 
   return (
     <div>
