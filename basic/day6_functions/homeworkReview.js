@@ -25,7 +25,7 @@ const reviews = [
 
 //sort
 const arr = [1, 2, 3, 4, 3, 2, 1, 13, 14];
-
+const newArray = [...arr].sort();
 
 // console.log(arr === sortedArray);
 
