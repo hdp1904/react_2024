@@ -5,7 +5,7 @@ const AVAILABLE_PROFESSIONS = [
   "mathematician",
   "chemist",
   "developer",
-
+  "physicist",
 ];
 
 export default function NewPersonForm({ handleAddPerson }) {
