@@ -9,7 +9,7 @@ export default function PropDrilling() {
       <div>
         <button onClick={() => setCount((prev) => prev + 1)}>Add</button>
       </div>
-  
+      <A count={count} />
     </div>
   );
 }
