@@ -19,7 +19,7 @@ function A({ count }) {
     <div
       style={{
         border: "1px solid white",
-   
+        padding: "10px",
       }}
     >
       <h3>A: {count} </h3>
