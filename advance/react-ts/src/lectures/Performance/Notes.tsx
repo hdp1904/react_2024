@@ -17,7 +17,7 @@ export default function Notes() {
         </ul>
       </li>
       <li>
-
+        <h3>CLS: Cumulative Layout Shift</h3>
       </li>
     </ul>
   );
