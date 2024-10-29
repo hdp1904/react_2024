@@ -8,7 +8,7 @@ fetch("http://localhost:3000/posts")
 
 document.querySelector("#newTodo").addEventListener("click", () => {
   fetch("http://localhost:3000/todos", {
-  
+    method: "POST", // *GET, POST, PUT, DELETE, etc.
     headers: {
       "Content-Type": "application/json",
     },
