@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import CountContext from "./context/CountContext";
 
 export default function FixPropDrilling() {
-  const [count, setCount] = useState(0);
+
 
   return (
     <div>
