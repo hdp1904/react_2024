@@ -10,7 +10,7 @@ interface CounterProps {
 }
 
 function Counter({ count }: CounterProps) {
-
+  console.log("Counter rerenders");
   return <h1>{count}</h1>;
 }
 
