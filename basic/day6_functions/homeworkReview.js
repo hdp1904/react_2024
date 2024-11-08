@@ -2,7 +2,7 @@ const reviews = [
   {
     id: "R001",
     author: "John Doe",
-    rating: 5,
+
     comment: "These headphones are amazing! Highly recommend.",
   },
   {
