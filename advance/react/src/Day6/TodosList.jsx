@@ -20,7 +20,7 @@ export default function TodosList() {
           {todos?.map(({ id, title, completed }) => {
             return (
               <React.Fragment key={id}>
-       
+                <div>{id}</div>
                 <div>{title}</div>
                 <div>{completed ? "done" : "not done"}</div>
               </React.Fragment>
