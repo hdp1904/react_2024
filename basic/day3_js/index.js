@@ -19,7 +19,7 @@ let count = 1;
 
 function foo() {
   if (false) {
-    var a = "a";
+
   }
   //   console.log("var", a);
 }
