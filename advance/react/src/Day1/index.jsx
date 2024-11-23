@@ -4,7 +4,8 @@ export default function Day1React() {
   // return <div>Day1React</div>;
   return (
     <>
-
+      <Foo />
+      <Foo />
     </>
   );
 }
