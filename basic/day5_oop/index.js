@@ -13,7 +13,7 @@ const obj1 = {
 
 const obj2 = {
   a: "a2",
-
+  b: "b2",
   //obj2 will have all obj1's properties
   __proto__: obj1,
 };
