@@ -1,7 +1,7 @@
 const people = [
   {
     name: "John Smith",
-    age: 19,
+
     occupation: "student",
     networth: -100000,
   },
