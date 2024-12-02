@@ -8,7 +8,7 @@ export default function RenderingTheUI() {
     return (
         <div>
             <h1>RenderingTheUI</h1>
-
+            <Parent />
             <KeepingComponentsPure />
             <AddingInteractivity />
         </div>
