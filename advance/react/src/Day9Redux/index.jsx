@@ -11,7 +11,7 @@ export default function Day9Redux() {
   const count = useSelector((state) => state.count);
   const theme = useSelector((state) => state.theme);
 
-
+  const dispatch = useDispatch();
 
   // return <UserProfile />;
 
