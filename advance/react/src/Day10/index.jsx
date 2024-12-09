@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  Switch,
+
   NavLink,
 } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
