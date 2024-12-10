@@ -4,7 +4,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Fallback from "./lectures/Performance/Fallback";
 
-const Performance = lazy(() => import("./lectures/Performance"));
+
 
 function App() {
   return (
