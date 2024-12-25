@@ -6,7 +6,7 @@ class TodosList extends Component {
     const { data: todos, isLoading, error, refetch, isRefetching } = this.props;
 
     if (isLoading) {
-      return <div>loading...</div>;
+
     }
 
     if (error) {
