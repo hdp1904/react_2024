@@ -10,7 +10,7 @@ export default function TodosList() {
     fetch("https://jsonplaceholder.typicode.com/todos")
       .then((res) => res.json())
       .then((data) => {
-        setTodos(data);
+    
       });
   }, []);
 
