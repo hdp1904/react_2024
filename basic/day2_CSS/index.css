@@ -12,7 +12,7 @@ h1 {
 .subtitle {
   color: blue;
   background-color: orange;
-
+  border: 1px solid black;
   height: 100px;
 }
 
