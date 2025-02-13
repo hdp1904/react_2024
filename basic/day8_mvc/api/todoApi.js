@@ -6,7 +6,7 @@ const todoAPI = (() => {
 
   const postTodoAPI = async (newTodo) => {
     return fetch(BASE_TODO_API, {
-
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
