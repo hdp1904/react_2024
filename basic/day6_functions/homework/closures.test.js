@@ -10,7 +10,7 @@ import {
 describe("closures", () => {
   describe("createGreeting", () => {
     it("should return a greeting message", () => {
-    
+      const sayHello = createGreeting("Hello");
       expect(sayHello("Alice")).toBe("Hello Alice");
       const sayHi = createGreeting("Hi");
       expect(sayHi("Bob")).toBe("Hi Bob");
