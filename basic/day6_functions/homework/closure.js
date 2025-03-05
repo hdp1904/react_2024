@@ -9,7 +9,7 @@
 // console.log(sayHi("Bob"));  // Outputs: "Hi Bob"
 function createGreeting(greeting) {
   return (name) => {
-  
+    return `${greeting} ${name}`;
   };
 }
 
