@@ -8,7 +8,7 @@ let people = JSON.parse(localStorage.getItem("people"));
 if (!people) people = [];
 
 const display = () => {
-  const tempDiv = document.createElement("div");
+ 
 
 for(let i of people){
   const temp = document.createElement("p");
