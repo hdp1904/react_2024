@@ -2,7 +2,7 @@
 
 // function getBeef(cb) {
 //   setTimeout(() => {
-
+//     const beef = "beef";
 //     cb(beef);
 //   }, 500);
 // }
