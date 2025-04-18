@@ -8,7 +8,7 @@ const obj0 = {
 const obj1 = {
   a: "a1",
   //obj1 will have all obj0's properties
-
+  __proto__: obj0,
 };
 
 const obj2 = {
