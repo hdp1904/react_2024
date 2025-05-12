@@ -7,7 +7,7 @@ class TodoView {
   }
 
   renderTodoElement(todo) {
-
+    const { id, task } = todo;
     const todoItem = document.createElement("div");
     todoItem.classList.add("todo-item");
     todoItem.id = id;
