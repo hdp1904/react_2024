@@ -7,7 +7,7 @@ const people = [
   },
   {
     name: "John Doe",
-
+    age: 45,
     occupation: "CEO",
     networth: 8250000,
   },
