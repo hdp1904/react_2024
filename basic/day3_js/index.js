@@ -39,7 +39,7 @@ if (true) {
 // Data Types
 // Primitive data types
 const num = 5;
-const str = "a string";
+
 const bool = true;
 const null1 = null;
 const undefined1 = undefined;
