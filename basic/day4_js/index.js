@@ -5,7 +5,7 @@ const person1 = {
   name: "Bob",
   age: 1,
   address: {
-    street: "123 Main Street",
+
     zip: "20000",
   },
   job: null,
