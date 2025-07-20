@@ -7,7 +7,7 @@ const reviews = [
   },
   {
     id: "R002",
-    author: "Jane Smith",
+
     rating: 4,
     comment:
       "The sound quality is great, but the battery life could be better.",
