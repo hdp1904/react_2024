@@ -3,7 +3,7 @@
 fetch("http://localhost:3000/posts")
   .then((res) => res.json())
   .then((posts) => {
-
+    // console.log(posts);
   });
 
 document.querySelector("#newTodo").addEventListener("click", () => {
