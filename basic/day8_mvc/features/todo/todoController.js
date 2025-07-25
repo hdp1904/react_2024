@@ -14,7 +14,7 @@ class TodoController {
 
   setUpEvents() {
     this.setUpDeleteEvent();
-
+    this.setUpAddEvent();
   }
 
   fetchTodos() {
