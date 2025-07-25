@@ -15,7 +15,7 @@ export const sequentialPromise = async (promises, order) => {
   //Example:
   //order = [2,1,3]
   //promises = [
-  //   Promise.resolve("data1"),
+
   //   Promise.resolve("data2"),
   //   Promise.resolve("data3"),
   // ];
