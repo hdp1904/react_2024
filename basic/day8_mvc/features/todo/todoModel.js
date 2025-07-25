@@ -9,7 +9,7 @@ class TodoModel {
   }
 
   get length() {
-    return this.#todos.length;
+
   }
 
   getTodos() {
