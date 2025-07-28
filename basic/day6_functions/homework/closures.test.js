@@ -3,7 +3,7 @@ import {
   createGreeting,
   createLimitedCallFunction,
   createPerson,
-  createRateLimiter,
+
   functionStore,
 } from "./closures";
 
