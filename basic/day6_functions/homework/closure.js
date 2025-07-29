@@ -15,7 +15,7 @@ function createGreeting(greeting) {
 
 const sayHello = createGreeting("Hello");
 console.log(sayHello("Alice")); // "Hello Alice"
-
+const sayHi = createGreeting("Hi");
 console.log(sayHi("Bob")); // "Hi Bob"
 
 // Exercise 2: Counter
