@@ -15,7 +15,7 @@ export default function TodosList() {
     <div>
       <h3>Todo List</h3>
       <form onSubmit={handleSubmit}>
-        <input value={value} onChange={(e) => setValue(e.target.value)} />
+  
         <button type="submit">Add</button>
       </form>
       <div>
