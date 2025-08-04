@@ -12,7 +12,7 @@ import Counter from "./Counter";
 // caches the result of a function
 
 export default function Memoization() {
-  const [input, setInput] = useState("");
+
   const [count, setCount] = useState(0);
 
   const handleClick = useCallback(() => {
