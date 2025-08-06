@@ -9,7 +9,7 @@ export default function Parent() {
     }}>
       <h2>Parent Component</h2>
       <Child a="a" b="b" c="c" d="d" >
-        children prop
+
       </Child>
     </div>
   );
