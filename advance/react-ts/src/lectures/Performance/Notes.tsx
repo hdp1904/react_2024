@@ -6,7 +6,7 @@ export default function Notes() {
         <h3>FID: First Input Delay</h3>
         <div>
           Solutions: reduce Javascript execution time, reduce render-blocking
-          resources, reduce bundle size
+
         </div>
         <ul>
           <li>CDN</li>
