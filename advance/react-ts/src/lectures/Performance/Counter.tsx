@@ -4,7 +4,7 @@ interface CounterProps {
   count: number;
   config: {
     a: string;
-    b: string;
+
   };
   handleClick: () => void;
 }
