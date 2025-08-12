@@ -14,7 +14,7 @@ function Foo({ title, url, desc }) {
   return (
     <div>
       <div>Title, {title}</div>
-      <div>{url}</div>
+
       <div>{desc.toLowerCase()} </div>
     </div>
   );
