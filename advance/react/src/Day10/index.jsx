@@ -17,7 +17,7 @@ import TopicsPage from "./pages/TopicsPage";
 export default function Day10() {
   return (
     <Router>
-
+      <h1>Router</h1>
       <nav>
         <ul>
           <li>
