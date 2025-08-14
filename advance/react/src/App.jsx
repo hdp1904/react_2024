@@ -16,8 +16,7 @@ function App() {
     <>
       {/* <h1>Advanced React Training</h1> */}
       {/* <Day1React /> */}
-      {/* <RenderingTheUI /> */}
-      {/* <Day3 /> */}
+
       {/* <SelectAll /> */}
       {/* <Day45Lifecycle /> */}
       {/* <Day6 /> */}
