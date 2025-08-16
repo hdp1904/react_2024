@@ -4,7 +4,7 @@ const userReducer = (
   state = {
     loading: false,
     error: false,
-    user: {},
+
   },
   action
 ) => {
