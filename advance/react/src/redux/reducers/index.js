@@ -5,7 +5,7 @@ import userReducer from "./userReducer";
 
 const rootReducer = combineReducers({
   count: countReducer,
-
+  theme: themeReducer,
   user: userReducer,
 });
 
