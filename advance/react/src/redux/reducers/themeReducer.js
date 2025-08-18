@@ -4,7 +4,7 @@ const themeReducer = (state = "dark", action) => {
       return state === "dark" ? "light" : "dark";
 
     default:
-      return state;
+
   }
 };
 
