@@ -11,7 +11,7 @@ export default function SelectAll() {
 
   const handleCheck = (id) => {
     const newItems = items.map((item) => {
-      return item.id === id
+     
         ? {
             ...item,
             selected: !item.selected,
