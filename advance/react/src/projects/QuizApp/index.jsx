@@ -5,7 +5,7 @@ const style = {
     padding: "21px",
     border: "1px solid #E0E0E0",
     borderRadius: "15px",
-    
+    width: "max-content",
     marginBottom: "40px",
   },
   question: {
