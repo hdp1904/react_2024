@@ -8,7 +8,7 @@ export class PostFetcherClass extends Component {
         <div>Current Post Id: {1}</div>
         <div>
           <div>Title: </div>
-          <div>UserId: </div>
+
           <div>Body:</div>
         </div>
         {/* assume the minimum id is 1, max is 100, disable the buttons if needed */}
