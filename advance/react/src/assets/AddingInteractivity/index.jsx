@@ -7,7 +7,7 @@ export default function AddingInteractivity() {
 
     const fetchPostById = id => {
         fetch(`https://jsonplaceholder.typicode.com/posts/${id}`).then(response => {
-            return response.json()
+ 
         }
         ).then(data => {
             console.log(data)
