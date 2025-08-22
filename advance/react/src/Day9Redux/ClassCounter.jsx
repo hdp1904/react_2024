@@ -10,7 +10,7 @@ class ClassCounter extends Component {
       <div>
         <h2>Class Counter</h2>
         <button onClick={increment}>Add</button>
-    
+        <div>Theme: {theme}</div>
         <div>Count: {count}</div>
       </div>
     );
