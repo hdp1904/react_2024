@@ -7,7 +7,7 @@ import {
 
 export default function UserProfile() {
   const { loading, user } = useSelector((state) => state.user);
-  const dispatch = useDispatch();
+
 
   useEffect(() => {
     dispatch(fetchUserAsync);
