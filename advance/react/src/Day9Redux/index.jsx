@@ -8,7 +8,7 @@ import UserProfile from "./UserProfile";
 export default function Day9Redux() {
   const [amount, setAmount] = useState(0);
 
-
+  const count = useSelector((state) => state.count);
   const theme = useSelector((state) => state.theme);
 
   const dispatch = useDispatch();
