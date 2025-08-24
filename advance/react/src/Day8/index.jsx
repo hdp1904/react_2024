@@ -9,7 +9,7 @@ export default function Day8() {
     <div>
       <h1>Day 8</h1>
       {/* <PropDrilling /> */}
-
+      <FixPropDrilling />
       <TodosProvider>
         <TodosList />
       </TodosProvider>
