@@ -11,7 +11,7 @@ export function TodosProvider({ children }) {
   };
 
   const handleDelete = (id) => {
-    setTodos((prev) => prev.filter((todo) => todo.id !== id));
+
   };
 
   return (
