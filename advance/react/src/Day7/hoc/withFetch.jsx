@@ -16,7 +16,7 @@ const withFetch = (OldComponent, api) => {
       fetch(api)
         .then((res) => res.json())
         .then((data) => {
-          this.setState({ data });
+          
         })
         .catch((err) => {
           this.setState({ error: "error" });
