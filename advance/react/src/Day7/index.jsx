@@ -7,7 +7,7 @@ export default class Day7 extends Component {
     return (
       <div>
         <h2>Day 7</h2>
-        <PostsList />
+   
         {/* <TodosList /> */}
       </div>
     );
