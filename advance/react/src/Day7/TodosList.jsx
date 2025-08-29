@@ -2,7 +2,7 @@ import { Component } from "react";
 import withFetch from "./hoc/withFetch";
 
 class TodosList extends Component {
-  render() {
+
     const { data: todos, isLoading, error, refetch, isRefetching } = this.props;
 
     if (isLoading) {
