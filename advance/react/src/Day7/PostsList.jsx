@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import withFetch from "./hoc/withFetch";
 
 class PostsList extends Component {
-
+  render() {
     const { data: posts, isLoading, error, refetch, isRefetching } = this.props;
 
     if (isLoading) {
