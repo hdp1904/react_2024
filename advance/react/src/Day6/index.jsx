@@ -1,7 +1,7 @@
 import React from "react";
 import Rerender from "./Rerender";
 import PostsList from "./PostsList";
-import TodosList from "./TodosList";
+
 
 export default function Day6() {
   return (
