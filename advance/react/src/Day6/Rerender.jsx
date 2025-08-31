@@ -3,7 +3,7 @@ import useForceUpdate from "./hooks/useForceUpdate";
 
 export default function Parent() {
   const rerender = useForceUpdate();
- 
+  console.log("parent rerendering...");
 
   return (
     <div
