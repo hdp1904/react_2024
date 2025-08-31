@@ -5,7 +5,7 @@ export default function PostsList() {
   const {
     loading,
     error,
-    data: posts,
+  
     isRefetching,
     refetch,
   } = useFetch("https://jsonplaceholder.typicode.com/posts");
