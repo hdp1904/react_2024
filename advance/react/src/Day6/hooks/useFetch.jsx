@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export default function useFetch(api) {
   const [data, setData] = useState(null);
-
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
   const [isRefetching, setIsRefetching] = useState(false);
