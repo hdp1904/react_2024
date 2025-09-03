@@ -6,7 +6,7 @@ import { PostFetcherFn, PostFetcherClass } from "../projects/PostFetcher";
 import InitPropWithState from "./InitPropWithState";
 
 export default function Day45Lifecycle() {
-
+  const [shown, setShown] = useState(true);
   const [count, setCount] = useState(0);
 
   // console.log("parent rerendering");
