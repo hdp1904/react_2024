@@ -8,7 +8,7 @@ export default function TodosList() {
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/todos")
-
+      .then((res) => res.json())
       .then((data) => {
         setTodos(data);
       });
