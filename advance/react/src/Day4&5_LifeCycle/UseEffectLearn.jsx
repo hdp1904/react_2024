@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 // In v16.8, hooks are introduced to mimic the states and lifecycles of class components
 
 export default function UseEffectLearn() {
-  const [count, setCount] = useState(0);
+ 
 
   // with no dependency array
   useEffect(() => {
