@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function InitPropWithState() {
   const [count, setCount] = useState(0);
-  console.log("parent", count);
+
   return (
     <div>
       <button onClick={() => setCount((prev) => prev + 1)}>Add</button>
