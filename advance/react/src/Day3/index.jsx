@@ -7,7 +7,7 @@ export default function Day3() {
     <div>
       <h1>Day3</h1>
       {/* <Counter /> */}
-      <PeopleList />
+
     </div>
   );
 }
