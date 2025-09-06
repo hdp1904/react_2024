@@ -7,7 +7,7 @@ export default function Counter() {
 
   const handleAdd = () => {
     // setCount(10);
-    setCount((prev) => prev + 1);
+
   };
 
   return (
