@@ -11,7 +11,7 @@ export default class ClassCounter extends Component {
   }
 
   componentDidMount() {
-
+    // console.log("component did mount");
     // this.invokeSideEffect();
     this.startCountDown();
   }
